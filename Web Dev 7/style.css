@@ -1,0 +1,22 @@
+#me{
+color: blue;
+background-color: yellow;
+}
+
+.you{
+    color: red;
+    background-color: orange;
+}
+ div < p{
+    color: blue;
+  background-color: pink;
+ }
+
+ div p{
+    color: blue;
+  background-color: pink;
+ }
+
+ a:hover{
+    background-color: yellow;
+ }
