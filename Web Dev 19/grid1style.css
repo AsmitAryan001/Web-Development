@@ -1,0 +1,37 @@
+.container {
+    border: 2px solid black;
+    display: grid;
+    grid-template-areas: "nav nav nav "
+                          "side article article"
+                          "footer footer footer";
+}
+
+.item1 {
+    border: 2px solid red;
+    height: 50px;
+    grid-area: nav;
+}
+
+.item2 {
+    border: 2px solid red;
+    height: 50px;
+    grid-area: side;
+}
+
+.item3 {
+    border: 2px solid red;
+    height: 50px;
+    grid-area: article;
+
+}
+
+.item4 {
+    border: 2px solid red;
+    height: 50px;
+    grid-area: footer;
+}
+
+.item5 {
+    border: 2px solid red;
+    height: 50px;
+}
