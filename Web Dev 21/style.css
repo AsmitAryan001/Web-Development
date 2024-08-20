@@ -1,0 +1,35 @@
+.container {
+    height: 30vh;
+    width: 50vh;
+    background-color: beige;
+
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    background-color: darkcyan;
+    animation-name: meraanimation;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  /* this is a shorthand function for the animation funtion ,every value to be entered here is mentioned and is filled accordingly to the user choice   */
+
+}
+
+@keyframes meraanimation {
+    from {
+        background-color: red;
+transform: translateX(100px);
+    }
+
+    to {
+        background-color: yellow;
+        transform: translateX(500px);
+
+    }
+}
